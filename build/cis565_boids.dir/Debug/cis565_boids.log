@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include\thrust/system/detail/error_category.inl(102): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(178): note: see declaration of 'strerror'
+E:\cis565\Project1-CUDA-Flocking\src\main.cpp(286): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+E:\cis565\Project1-CUDA-Flocking\src\main.cpp(287): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+E:\cis565\Project1-CUDA-Flocking\src\main.cpp(292): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     Creating library E:/cis565/Project1-CUDA-Flocking/build/Debug/cis565_boids.lib and object E:/cis565/Project1-CUDA-Flocking/build/Debug/cis565_boids.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'E:\cis565\Project1-CUDA-Flocking\build\Debug\vc120.pdb'; linking object as if no debug info
+  cis565_boids.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\Debug\cis565_boids.exe
+  cis565_boids.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/Debug/cis565_boids.pdb (Full PDB)

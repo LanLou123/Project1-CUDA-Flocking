@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\e70c0bf0d68e25f9614e3d3519b2c029\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E45396BF-8BC4-3C46-ADFC-D2F830BC311A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
