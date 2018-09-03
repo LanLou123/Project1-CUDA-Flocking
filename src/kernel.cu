@@ -15,6 +15,9 @@
 #define imin( a, b ) ( ((a) < (b)) ? (a) : (b) )
 #endif
 
+#define CELL27 
+//#define CELL8
+
 #define checkCUDAErrorWithLine(msg) checkCUDAError(msg, __LINE__)
 
 /**
@@ -473,6 +476,9 @@ __global__ void kernUpdateVelNeighborSearchScattered(
 		int boid_index = particleArrayIndices[index];
 		glm::vec3 grididxf = (pos[boid_index] - gridMin)*inverseCellWidth;
 		int grididx = gridIndex3Dto1D(grididxf.x, grididxf.y, grididxf.z, gridResolution);
+		glm::vec3 v1(0), v2(0), v3(0);
+		int count1 = 0, count2 = 0;
+#ifdef cell8
 		glm::vec3 startP;
 		for (int i = 0; i < 3; ++i)
 		{
@@ -485,8 +491,7 @@ __global__ void kernUpdateVelNeighborSearchScattered(
 				startP[i] = -1;
 			}
 		}
-		glm::vec3 v1(0), v2(0), v3(0);
-		int count1 = 0, count2 = 0;
+
 		for (int i = startP.x; i <= startP.x + 1; ++i)
 		{
 			for (int j = startP.y; j <= startP.y + 1; ++j)
@@ -517,6 +522,41 @@ __global__ void kernUpdateVelNeighborSearchScattered(
 				}
 			}
 		}
+#endif
+#ifdef CELL27
+
+		for (int i = -1; i <= 1; ++i)
+		{
+			for (int j = -1; j <= 1; ++j)
+			{
+				for (int k = -1; k <=  1; ++k)
+				{
+					int cur_idx = grididx + i + j*gridResolution + k*gridResolution*gridResolution;
+					if (gridCellStartIndices[cur_idx] == -1 && gridCellEndIndices[cur_idx] == -1) continue;
+					for (int m = gridCellStartIndices[cur_idx]; m <= gridCellEndIndices[cur_idx]; ++m)
+					{
+						int idxs = particleArrayIndices[m];
+						if (idxs == boid_index)
+							continue;
+						float dis = glm::distance(pos[idxs], pos[boid_index]);
+						if (dis < rule1Distance)
+						{
+							v1 += pos[idxs];
+							count1++;
+						}
+						if (dis < rule2Distance)
+							v2 -= (pos[idxs] - pos[boid_index]);
+						if (dis < rule3Distance)
+						{
+							v3 += vel1[idxs];
+							count2++;
+						}
+					}
+				}
+			}
+		}
+#endif // CELL27
+
 		v1 /= count1;
 		v1 = (v1 - pos[boid_index])*rule1Scale;
 		v3 /= count2;
@@ -544,7 +584,10 @@ __global__ void kernUpdateVelNeighborSearchCoherent(
 	{
 		int boid_index = index;
 		glm::vec3 grididxf = (pos[boid_index] - gridMin)*inverseCellWidth;
-		int grididx = gridIndex3Dto1D(grididxf.x, grididxf.y, grididxf.z, gridResolution);
+		int grididx = gridIndex3Dto1D(grididxf.x, grididxf.y, grididxf.z, gridResolution);	
+		glm::vec3 v1(0), v2(0), v3(0);
+		int count1 = 0, count2 = 0;
+#ifdef CELL8
 		glm::vec3 startP;
 		for (int i = 0; i < 3; ++i)
 		{
@@ -557,8 +600,7 @@ __global__ void kernUpdateVelNeighborSearchCoherent(
 				startP[i] = -1;
 			}
 		}
-		glm::vec3 v1(0), v2(0), v3(0);
-		int count1 = 0, count2 = 0;
+
 		for (int i = startP.x; i <= startP.x + 1; ++i)
 		{
 			for (int j = startP.y; j <= startP.y + 1; ++j)
@@ -589,6 +631,40 @@ __global__ void kernUpdateVelNeighborSearchCoherent(
 				}
 			}
 		}
+#endif // CELL8
+#ifdef CELL27
+		for (int i = -1; i <= 1; ++i)
+		{
+			for (int j = -1; j <= 1; ++j)
+			{
+				for (int k = -1; k <= 1; ++k)
+				{
+					int cur_idx = grididx + i + j*gridResolution + k*gridResolution*gridResolution;
+					if (gridCellStartIndices[cur_idx] == -1 && gridCellEndIndices[cur_idx] == -1) continue;
+					for (int m = gridCellStartIndices[cur_idx]; m <= gridCellEndIndices[cur_idx]; ++m)
+					{
+						int idxs = m;
+						if (idxs == boid_index)
+							continue;
+						float dis = glm::distance(pos[idxs], pos[boid_index]);
+						if (dis < rule1Distance)
+						{
+							v1 += pos[idxs];
+							count1++;
+						}
+						if (dis < rule2Distance)
+							v2 -= (pos[idxs] - pos[boid_index]);
+						if (dis < rule3Distance)
+						{
+							v3 += vel1[idxs];
+							count2++;
+						}
+					}
+				}
+			}
+		}
+#endif // CELL27
+
 		v1 /= count1;
 		v1 = (v1 - pos[boid_index])*rule1Scale;
 		v3 /= count2;
