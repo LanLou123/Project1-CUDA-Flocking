@@ -108,7 +108,7 @@
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -G -g -arch=sm_30 -m64 -ccbin "$(VCInstallDir)bin" -Xcompiler /MDd       -dlink E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj -o E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)/src_intermediate_link.obj
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -G -g -arch=sm_61 -m64 -ccbin "$(VCInstallDir)bin" -Xcompiler /MDd       -dlink E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj -o E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)/src_intermediate_link.obj
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -157,7 +157,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe"   -arch=sm_30 -m64 -ccbin "$(VCInstallDir)bin"   -Xcompiler /MD     -dlink E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj -o E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)/src_intermediate_link.obj
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe"   -arch=sm_61 -m64 -ccbin "$(VCInstallDir)bin"   -Xcompiler /MD     -dlink E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj -o E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)/src_intermediate_link.obj
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,7 +206,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe"   -arch=sm_30 -m64 -ccbin "$(VCInstallDir)bin"     -Xcompiler /MD   -dlink E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj -o E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)/src_intermediate_link.obj
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe"   -arch=sm_61 -m64 -ccbin "$(VCInstallDir)bin"     -Xcompiler /MD   -dlink E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj -o E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)/src_intermediate_link.obj
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -254,7 +254,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe"   -arch=sm_30 -m64 -ccbin "$(VCInstallDir)bin"       -Xcompiler /MD -dlink E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj -o E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)/src_intermediate_link.obj
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe"   -arch=sm_61 -m64 -ccbin "$(VCInstallDir)bin"       -Xcompiler /MD -dlink E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj -o E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir/$(Configuration)/src_intermediate_link.obj
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

@@ -70,7 +70,7 @@ set(generated_file_internal "E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFil
 set(generated_cubin_file_internal "E:/cis565/Project1-CUDA-Flocking/build/src/CMakeFiles/src.dir//$(Configuration)/src_generated_kernel.cu.obj.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/bin/nvcc.exe") # path
-set(CUDA_NVCC_FLAGS  ;; -arch=sm_30) # list
+set(CUDA_NVCC_FLAGS  ;; -arch=sm_61) # list
 # Build specific configuration flags
 set(CUDA_NVCC_FLAGS_DEBUG -G;-g ; )
 set(CUDA_NVCC_FLAGS_RELEASE  ; )

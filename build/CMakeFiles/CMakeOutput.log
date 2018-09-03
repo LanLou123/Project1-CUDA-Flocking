@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) ��������汾 14.0.25420.1
 ��Ȩ����(C) Microsoft Corporation����������Ȩ����
 
-��������ʱ��Ϊ 2018/8/29 22:58:26��
+��������ʱ��Ϊ 2018/9/3 10:20:20��
 �ڵ� 1 �ϵ���Ŀ��E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\3.11.0-rc1\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
 PrepareForBuild:
   ���ڴ���Ŀ¼��Debug\����
@@ -35,7 +35,7 @@ FinalizeBuildStatus:
     0 ������
     0 ������
 
-����ʱ�� 00:00:01.01
+����ʱ�� 00:00:01.06
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) ��������汾 14.0.25420.1
 ��Ȩ����(C) Microsoft Corporation����������Ȩ����
 
-��������ʱ��Ϊ 2018/8/29 22:58:27��
+��������ʱ��Ϊ 2018/9/3 10:20:21��
 �ڵ� 1 �ϵ���Ŀ��E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\3.11.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
 PrepareForBuild:
   ���ڴ���Ŀ¼��Debug\����
@@ -80,7 +80,7 @@ FinalizeBuildStatus:
     0 ������
     0 ������
 
-����ʱ�� 00:00:00.83
+����ʱ�� 00:00:00.98
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,157 +92,157 @@ The CXX compiler identification is MSVC, found in "E:/cis565/Project1-CUDA-Flock
 Determining if the C compiler works passed with the following output:
 Change Dir: E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c6713.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cba64.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25420.1
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/8/29 22:58:28。
-节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_c6713.vcxproj”(默认目标)。
+生成启动时间为 2018/9/3 10:20:22。
+节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_cba64.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_c6713.dir\Debug\”。
+  正在创建目录“cmTC_cba64.dir\Debug\”。
   正在创建目录“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_c6713.dir\Debug\cmTC_c6713.tlog\”。
+  正在创建目录“cmTC_cba64.dir\Debug\cmTC_cba64.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_c6713.dir\Debug\cmTC_c6713.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_cba64.dir\Debug\cmTC_cba64.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6713.dir\Debug\\" /Fd"cmTC_c6713.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cba64.dir\Debug\\" /Fd"cmTC_cba64.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6713.dir\Debug\\" /Fd"cmTC_c6713.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cba64.dir\Debug\\" /Fd"cmTC_cba64.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_c6713.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_c6713.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_c6713.lib" /MACHINE:X64  /machine:x64 cmTC_c6713.dir\Debug\testCCompiler.obj
-  cmTC_c6713.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_c6713.exe
-  cmTC_c6713.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_c6713.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_cba64.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_cba64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_cba64.lib" /MACHINE:X64  /machine:x64 cmTC_cba64.dir\Debug\testCCompiler.obj
+  cmTC_cba64.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_cba64.exe
+  cmTC_cba64.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_cba64.pdb (Full PDB)
 FinalizeBuildStatus:
-  正在删除文件“cmTC_c6713.dir\Debug\cmTC_c6713.tlog\unsuccessfulbuild”。
-  正在对“cmTC_c6713.dir\Debug\cmTC_c6713.tlog\cmTC_c6713.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_c6713.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_cba64.dir\Debug\cmTC_cba64.tlog\unsuccessfulbuild”。
+  正在对“cmTC_cba64.dir\Debug\cmTC_cba64.tlog\cmTC_cba64.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_cba64.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:01.19
+已用时间 00:00:01.39
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_06f1f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f8bea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25420.1
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/8/29 22:58:30。
-节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_06f1f.vcxproj”(默认目标)。
+生成启动时间为 2018/9/3 10:20:24。
+节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_f8bea.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_06f1f.dir\Debug\”。
+  正在创建目录“cmTC_f8bea.dir\Debug\”。
   正在创建目录“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_06f1f.dir\Debug\cmTC_06f1f.tlog\”。
+  正在创建目录“cmTC_f8bea.dir\Debug\cmTC_f8bea.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_06f1f.dir\Debug\cmTC_06f1f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_f8bea.dir\Debug\cmTC_f8bea.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06f1f.dir\Debug\\" /Fd"cmTC_06f1f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8bea.dir\Debug\\" /Fd"cmTC_f8bea.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06f1f.dir\Debug\\" /Fd"cmTC_06f1f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8bea.dir\Debug\\" /Fd"cmTC_f8bea.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_06f1f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_06f1f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_06f1f.lib" /MACHINE:X64  /machine:x64 cmTC_06f1f.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_06f1f.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_06f1f.exe
-  cmTC_06f1f.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_06f1f.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_f8bea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_f8bea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_f8bea.lib" /MACHINE:X64  /machine:x64 cmTC_f8bea.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_f8bea.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_f8bea.exe
+  cmTC_f8bea.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_f8bea.pdb (Full PDB)
 FinalizeBuildStatus:
-  正在删除文件“cmTC_06f1f.dir\Debug\cmTC_06f1f.tlog\unsuccessfulbuild”。
-  正在对“cmTC_06f1f.dir\Debug\cmTC_06f1f.tlog\cmTC_06f1f.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_06f1f.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_f8bea.dir\Debug\cmTC_f8bea.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f8bea.dir\Debug\cmTC_f8bea.tlog\cmTC_f8bea.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_f8bea.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.85
+已用时间 00:00:00.95
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c9d51.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fc668.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25420.1
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/8/29 22:58:31。
-节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_c9d51.vcxproj”(默认目标)。
+生成启动时间为 2018/9/3 10:20:25。
+节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_fc668.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_c9d51.dir\Debug\”。
+  正在创建目录“cmTC_fc668.dir\Debug\”。
   正在创建目录“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_c9d51.dir\Debug\cmTC_c9d51.tlog\”。
+  正在创建目录“cmTC_fc668.dir\Debug\cmTC_fc668.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_c9d51.dir\Debug\cmTC_c9d51.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_fc668.dir\Debug\cmTC_fc668.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9d51.dir\Debug\\" /Fd"cmTC_c9d51.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fc668.dir\Debug\\" /Fd"cmTC_fc668.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9d51.dir\Debug\\" /Fd"cmTC_c9d51.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fc668.dir\Debug\\" /Fd"cmTC_fc668.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   
   testCXXCompiler.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_c9d51.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_c9d51.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_c9d51.lib" /MACHINE:X64  /machine:x64 cmTC_c9d51.dir\Debug\testCXXCompiler.obj
-  cmTC_c9d51.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_c9d51.exe
-  cmTC_c9d51.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_c9d51.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc668.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc668.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc668.lib" /MACHINE:X64  /machine:x64 cmTC_fc668.dir\Debug\testCXXCompiler.obj
+  cmTC_fc668.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc668.exe
+  cmTC_fc668.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc668.pdb (Full PDB)
 FinalizeBuildStatus:
-  正在删除文件“cmTC_c9d51.dir\Debug\cmTC_c9d51.tlog\unsuccessfulbuild”。
-  正在对“cmTC_c9d51.dir\Debug\cmTC_c9d51.tlog\cmTC_c9d51.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_c9d51.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_fc668.dir\Debug\cmTC_fc668.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fc668.dir\Debug\cmTC_fc668.tlog\cmTC_fc668.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_fc668.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.89
+已用时间 00:00:00.99
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e089c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9f812.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25420.1
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/8/29 22:58:32。
-节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_e089c.vcxproj”(默认目标)。
+生成启动时间为 2018/9/3 10:20:27。
+节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_9f812.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_e089c.dir\Debug\”。
+  正在创建目录“cmTC_9f812.dir\Debug\”。
   正在创建目录“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_e089c.dir\Debug\cmTC_e089c.tlog\”。
+  正在创建目录“cmTC_9f812.dir\Debug\cmTC_9f812.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_e089c.dir\Debug\cmTC_e089c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_9f812.dir\Debug\cmTC_9f812.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e089c.dir\Debug\\" /Fd"cmTC_e089c.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9f812.dir\Debug\\" /Fd"cmTC_9f812.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e089c.dir\Debug\\" /Fd"cmTC_e089c.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9f812.dir\Debug\\" /Fd"cmTC_9f812.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_e089c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_e089c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_e089c.lib" /MACHINE:X64  /machine:x64 cmTC_e089c.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_e089c.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_e089c.exe
-  cmTC_e089c.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_e089c.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_9f812.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_9f812.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_9f812.lib" /MACHINE:X64  /machine:x64 cmTC_9f812.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_9f812.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_9f812.exe
+  cmTC_9f812.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_9f812.pdb (Full PDB)
 FinalizeBuildStatus:
-  正在删除文件“cmTC_e089c.dir\Debug\cmTC_e089c.tlog\unsuccessfulbuild”。
-  正在对“cmTC_e089c.dir\Debug\cmTC_e089c.tlog\cmTC_e089c.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_e089c.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_9f812.dir\Debug\cmTC_9f812.tlog\unsuccessfulbuild”。
+  正在对“cmTC_9f812.dir\Debug\cmTC_9f812.tlog\cmTC_9f812.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_9f812.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.88
+已用时间 00:00:00.96
 
 
 
@@ -250,40 +250,40 @@ FinalizeBuildStatus:
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f2252.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_08b59.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25420.1
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/8/29 22:58:34。
-节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_f2252.vcxproj”(默认目标)。
+生成启动时间为 2018/9/3 10:20:28。
+节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_08b59.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_f2252.dir\Debug\”。
+  正在创建目录“cmTC_08b59.dir\Debug\”。
   正在创建目录“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_f2252.dir\Debug\cmTC_f2252.tlog\”。
+  正在创建目录“cmTC_08b59.dir\Debug\cmTC_08b59.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_f2252.dir\Debug\cmTC_f2252.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_08b59.dir\Debug\cmTC_08b59.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2252.dir\Debug\\" /Fd"cmTC_f2252.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_08b59.dir\Debug\\" /Fd"cmTC_08b59.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2252.dir\Debug\\" /Fd"cmTC_f2252.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_08b59.dir\Debug\\" /Fd"cmTC_08b59.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_f2252.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_f2252.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_f2252.lib" /MACHINE:X64  /machine:x64 cmTC_f2252.dir\Debug\feature_tests.obj
-  cmTC_f2252.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_f2252.exe
-  cmTC_f2252.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_f2252.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_08b59.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_08b59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_08b59.lib" /MACHINE:X64  /machine:x64 cmTC_08b59.dir\Debug\feature_tests.obj
+  cmTC_08b59.vcxproj -> E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\cmTC_08b59.exe
+  cmTC_08b59.vcxproj -> E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp/Debug/cmTC_08b59.pdb (Full PDB)
 FinalizeBuildStatus:
-  正在删除文件“cmTC_f2252.dir\Debug\cmTC_f2252.tlog\unsuccessfulbuild”。
-  正在对“cmTC_f2252.dir\Debug\cmTC_f2252.tlog\cmTC_f2252.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_f2252.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_08b59.dir\Debug\cmTC_08b59.tlog\unsuccessfulbuild”。
+  正在对“cmTC_08b59.dir\Debug\cmTC_08b59.tlog\cmTC_08b59.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_08b59.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.88
+已用时间 00:00:01.07
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

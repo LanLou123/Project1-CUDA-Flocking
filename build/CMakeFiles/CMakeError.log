@@ -1,38 +1,38 @@
 Determining if the include file pthread.h exists failed with the following output:
 Change Dir: E:/cis565/Project1-CUDA-Flocking/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0e3b1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_148ef.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25420.1
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/8/29 22:58:35。
-节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_0e3b1.vcxproj”(默认目标)。
+生成启动时间为 2018/9/3 10:20:30。
+节点 1 上的项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_148ef.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_0e3b1.dir\Debug\”。
+  正在创建目录“cmTC_148ef.dir\Debug\”。
   正在创建目录“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_0e3b1.dir\Debug\cmTC_0e3b1.tlog\”。
+  正在创建目录“cmTC_148ef.dir\Debug\cmTC_148ef.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_0e3b1.dir\Debug\cmTC_0e3b1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_148ef.dir\Debug\cmTC_148ef.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e3b1.dir\Debug\\" /Fd"cmTC_0e3b1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_148ef.dir\Debug\\" /Fd"cmTC_148ef.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e3b1.dir\Debug\\" /Fd"cmTC_0e3b1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_148ef.dir\Debug\\" /Fd"cmTC_148ef.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
   
   CheckIncludeFile.c
-E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_0e3b1.vcxproj]
-已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_0e3b1.vcxproj”(默认目标)的操作 - 失败。
+E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_148ef.vcxproj]
+已完成生成项目“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_148ef.vcxproj”(默认目标)的操作 - 失败。
 
 生成失败。
 
-“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_0e3b1.vcxproj”(默认目标) (1) ->
+“E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_148ef.vcxproj”(默认目标) (1) ->
 (ClCompile 目标) -> 
-  E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_0e3b1.vcxproj]
+  E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\cis565\Project1-CUDA-Flocking\build\CMakeFiles\CMakeTmp\cmTC_148ef.vcxproj]
 
     0 个警告
     1 个错误
 
-已用时间 00:00:00.47
+已用时间 00:00:00.57
 
 

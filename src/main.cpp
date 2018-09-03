@@ -15,10 +15,10 @@
 // LOOK-2.1 LOOK-2.3 - toggles for UNIFORM_GRID and COHERENT_GRID
 #define VISUALIZE 1
 #define UNIFORM_GRID 1
-#define COHERENT_GRID 0
+#define COHERENT_GRID 1
 
 // LOOK-1.2 - change this to adjust particle count in the simulation
-const int N_FOR_VIS = 55000;
+const int N_FOR_VIS = 260000;
 const float DT = 0.2f;
 
 /**
@@ -123,8 +123,10 @@ bool init(int argc, char **argv) {
 
 void initVAO() {
 
-  GLfloat *bodies    = new GLfloat[4 * (N_FOR_VIS)];
-  GLuint *bindices   = new GLuint[N_FOR_VIS];
+  //GLfloat *bodies    = new GLfloat[4 * (N_FOR_VIS)];
+  //GLuint *bindices   = new GLuint[N_FOR_VIS];
+  std::unique_ptr<GLfloat[]> bodies{ new GLfloat[4 * (N_FOR_VIS)] };
+  std::unique_ptr<GLuint[]> bindices{ new GLuint[N_FOR_VIS] };
 
   glm::vec4 ul(-1.0, -1.0, 1.0, 1.0);
   glm::vec4 lr(1.0, 1.0, 0.0, 0.0);
@@ -147,24 +149,23 @@ void initVAO() {
 
   // Bind the positions array to the boidVAO by way of the boidVBO_positions
   glBindBuffer(GL_ARRAY_BUFFER, boidVBO_positions); // bind the buffer
-  glBufferData(GL_ARRAY_BUFFER, 4 * (N_FOR_VIS) * sizeof(GLfloat), bodies, GL_DYNAMIC_DRAW); // transfer data
+  glBufferData(GL_ARRAY_BUFFER, 4 * (N_FOR_VIS) * sizeof(GLfloat), bodies.get(), GL_DYNAMIC_DRAW); // transfer data
 
   glEnableVertexAttribArray(positionLocation);
   glVertexAttribPointer((GLuint)positionLocation, 4, GL_FLOAT, GL_FALSE, 0, 0);
 
   // Bind the velocities array to the boidVAO by way of the boidVBO_velocities
   glBindBuffer(GL_ARRAY_BUFFER, boidVBO_velocities);
-  glBufferData(GL_ARRAY_BUFFER, 4 * (N_FOR_VIS) * sizeof(GLfloat), bodies, GL_DYNAMIC_DRAW);
+  glBufferData(GL_ARRAY_BUFFER, 4 * (N_FOR_VIS) * sizeof(GLfloat), bodies.get(), GL_DYNAMIC_DRAW);
   glEnableVertexAttribArray(velocitiesLocation);
   glVertexAttribPointer((GLuint)velocitiesLocation, 4, GL_FLOAT, GL_FALSE, 0, 0);
 
   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, boidIBO);
-  glBufferData(GL_ELEMENT_ARRAY_BUFFER, (N_FOR_VIS) * sizeof(GLuint), bindices, GL_STATIC_DRAW);
+  glBufferData(GL_ELEMENT_ARRAY_BUFFER, (N_FOR_VIS) * sizeof(GLuint), bindices.get(), GL_STATIC_DRAW);
 
   glBindVertexArray(0);
 
-  delete[] bodies;
-  delete[] bindices;
+
 }
 
 void initShaders(GLuint * program) {
@@ -221,7 +222,7 @@ void initShaders(GLuint * program) {
     double timebase = 0;
     int frame = 0;
 
-    Boids::unitTest(); // LOOK-1.2 We run some basic example code to make sure
+    //Boids::unitTest(); // LOOK-1.2 We run some basic example code to make sure
                        // your CUDA development setup is ready to go.
 
     while (!glfwWindowShouldClose(window)) {
