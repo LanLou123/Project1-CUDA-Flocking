@@ -73,7 +73,9 @@ anything here that you don't want to share with the world.)
 
 #### **Did changing cell width and checking 27 vs 8 neighboring cells affect performance? Why or why not?**
 
-- it is noticable that if we decide to use 27 cells, we then would not need to multiply  maxdistance with 2 like this:``` 2.0f * std::max(std::max(rule1Distance, rule2Distance), rule3Distance);``` since the target boid is restricted in just one cell, thus cellwidth would become:``` std::max(std::max(rule1Distance, rule2Distance), rule3Distance); ```.
+- it is noticable that if we decide to use 27 cells, we then would not need to multiply  maxdistance with 2 like this:``` 2.0f * std::max(std::max(rule1Distance, rule2Distance), rule3Distance);``` since the target boid is restricted in just one cell, thus cellwidth would become:``` std::max(std::max(rule1Distance, rule2Distance), rule3Distance); ```, therefore, we can think two extreme conditions:
+  - when the number of boids is extremly large, since the volumn of two scenarios are 4X4X4 and 3X3X3, 8 cells will have to check more boids each as density are same for both, thus 27 cell might have better performance in this condition.
+  - when the number of boids is small, the density of boids will be lower, therefore the disadvantage of looping more cells will be more significant, and 27 cell will correspondingly appear slower.
 
 
 
