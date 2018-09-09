@@ -63,6 +63,18 @@ anything here that you don't want to share with the world.)
 ![](https://github.com/LanLou123/Project1-CUDA-Flocking/raw/master/boid2.JPG)
 
 
+  
+|blockSize|	Naïve|	Scattered|	Coherent
+----------|------|-----------|-------
+32|	216.8|	1236.9|	1243.7
+64|	215.5|	1254.4|	1251.7
+128|	214.2|	1231.7|	1241.1
+256	|216.8|	1241.2|	1210.7
+512|	206.4|	1245.4|	1222.7
+1024|	202.3|	1242.1|	1234.2
+
+
+
 - According to the graph, there are no much change of all three approaches' framerate, Also, as a common sense, the blocksize should normally be set as a round multiple of the warp size, which is 32 on all current hardware, so I only tested between 32-1024, according to [a stackoverflow question's reply](https://stackoverflow.com/questions/9985912/how-do-i-choose-grid-and-block-dimensions-for-cuda-kernels), it is most prefable to set blocksize between 128-512,however, you would have to try and test yourself to find the best option.
 
 
