@@ -37,7 +37,7 @@ anything here that you don't want to share with the world.)
 
 - for some reason I can't get the axis data into graph, here's the data in detail:
 
-|BoidsNum | Naive         | Scattered  grid | Coherent grid  
+|BoidsNum\FPS | Naive         | Scattered  grid | Coherent grid  
 --------- | ------------- | --------------|------- 
   1000    | 1585.5|	1457.49|	1447.4
   5000    |467.3|	1223.4|	1324.1
@@ -64,7 +64,7 @@ anything here that you don't want to share with the world.)
 
 
   
-|blockSize|	Naïve|	Scattered|	Coherent
+|blockSize\FPS |	Naïve|	Scattered|	Coherent
 ----------|------|-----------|-------
 32|	216.8|	1236.9|	1243.7
 64|	215.5|	1254.4|	1251.7
