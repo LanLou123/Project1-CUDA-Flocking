@@ -15,8 +15,8 @@
 #define imin( a, b ) ( ((a) < (b)) ? (a) : (b) )
 #endif
 
-#define CELL27 
-//#define CELL8
+//#define CELL27 
+#define CELL8
 
 #define checkCUDAErrorWithLine(msg) checkCUDAError(msg, __LINE__)
 
@@ -248,7 +248,15 @@ void Boids::initSimulation(int N) {
   checkCUDAErrorWithLine("kernGenerateRandomPosArray failed!");
 
   // LOOK-2.1 computing grid params
-  gridCellWidth = 2.0f * std::max(std::max(rule1Distance, rule2Distance), rule3Distance);
+#ifdef CELL8
+gridCellWidth = 2.0f * std::max(std::max(rule1Distance, rule2Distance), rule3Distance);
+#endif // CELL8
+#ifdef CELL27
+gridCellWidth =  std::max(std::max(rule1Distance, rule2Distance), rule3Distance);
+#endif // CELL27
+
+
+  
   int halfSideCount = (int)(scene_scale / gridCellWidth) + 1;
   gridSideCount = 2 * halfSideCount;
 
@@ -478,7 +486,7 @@ __global__ void kernUpdateVelNeighborSearchScattered(
 		int grididx = gridIndex3Dto1D(grididxf.x, grididxf.y, grididxf.z, gridResolution);
 		glm::vec3 v1(0), v2(0), v3(0);
 		int count1 = 0, count2 = 0;
-#ifdef cell8
+#ifdef CELL8
 		glm::vec3 startP;
 		for (int i = 0; i < 3; ++i)
 		{
